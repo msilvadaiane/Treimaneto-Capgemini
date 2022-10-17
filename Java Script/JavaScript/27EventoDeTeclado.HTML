@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Evento de teclado</title>
+
+
+    <!--JS-->
+    <script>
+
+        /*
+onKeyUp:  Exibe o caractere e depois execulta a acao.
+OnKeyDown: Execulta a acao e depois exibe o caractere
+OnKeyPress: Execulta a acao e depois exibe o caractere, porem nao tem suporte nas seguintes teclas:
+F1 até F12, ALT, CNTRL, SHIFT etc.
+        */
+
+        function exibir (){
+            
+            var campo = document.getElementById("campo").value;
+
+            alert(campo0);
+        }
+    </script>
+</head>
+
+<body>
+
+    <input type="text" id="campo" onkeyup="exibir()">
+
+</body>
+
+</html>
